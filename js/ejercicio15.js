@@ -2,7 +2,7 @@ let texto = prompt("Ingresa un texto:");
 let contadorVocales = 0;
 
 for (let i = 0; i < texto.length; i++) {
-  let caracterActual = texto[i].toLowerCase(); // Convertir a minúsculas para comparación
+  let caracterActual = texto[i].toLowerCase();
   if ("aeiou".includes(caracterActual)) {
     contadorVocales++;
   }
